@@ -5,7 +5,6 @@ const Nav = () => {
 
     const navigate = useNavigate()
     const handleClick = () => {
-        console.log("clicking")
         localStorage.removeItem("token")
         navigate("/login")
     }

@@ -24,8 +24,6 @@ const Home = () => {
         fetchData()
     }, [])
 
-    console.log(data)
-
     return (
         <div>
             <div>
